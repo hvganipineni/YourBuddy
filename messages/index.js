@@ -70,7 +70,7 @@ intents.matches('Joke', [
 intents.matches('Greetings', [
     function (session, args) {
     //session.send(myObj.text)
-     session.send("Greetings! Welcome to the Common Services chatbot. Before we get started please provide your WWID to help you better with your questions. eg (NE230) ");
+     session.send("Greetings! Welcome to the Common Services chatbot-Harsha. Before we get started please provide your WWID to help you better with your questions. eg (NE230) ");
         }
     ]);   
 intents.matches('None', [
